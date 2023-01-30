@@ -1,0 +1,41 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/CC-BY-4.0",
+    "dateCreated": "2023-01-24",
+    "name": "Automatic particle detection algorithm",
+    "description": "Matlab routines of an automatic particle detection algorithm, initially designed and used to study the time-resolved resuspension of isolated micro particle mono-layers exposed to airflow acceleration.\nContains folders: one used to create synthetic images in order to test the algorithm and another used for experimental data (images of particle deposition obtained using cameras) processing.",
+    "referencePublication": "https://hal.inrae.fr/hal-03954927",
+    "programmingLanguage": [
+        "Matlab"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Corentin",
+            "familyName": "Cazes"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-5266-3573",
+            "givenName": "Lionel",
+            "familyName": "Fiabane",
+            "email": "lionel.fiabane@inrae.fr"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Félicie",
+            "familyName": "Théron"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Dominique",
+            "familyName": "Heitz"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Laurence",
+            "familyName": "Le Coq"
+        }
+    ]
+}

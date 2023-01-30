@@ -1,0 +1,32 @@
+Particle detection algorithm
+============================
+Matlab routines of an automatic particle detection algorithm, initially
+designed and used to study the time-resolved resuspension of isolated micro
+particle mono-layers exposed to airflow acceleration.
+Contains folders: one used to create synthetic images in order to test the
+algorithm and another used for experimental data (images of particle deposition
+obtained using cameras) processing.
+
+
+Language
+========
+Coded using Matlab, with use of the image processing toolbox.
+
+
+Usage
+=====
+Each folder contains a self-described 'XXX_main.m' file, where XXX is either
+'experimental' or 'synthetic'.
+
+
+Authors & Acknowledgments
+=========================
+C. Cazes*+, L. Fiabane+, D. Heitz+, F. Theron*, L. Le Coq*
+* IMT Atlantique, Campus Nantes - GEPEA
++ Inrae - UR OPAALE, Rennes
+
+
+License
+=======
+This code is released under the Creative Commons Attribution 4.0 International
+License.
